@@ -1,0 +1,48 @@
+*{margin: 0;padding: 0;}
+body,html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #142D6C;
+}
+div.container-fluid{
+    height: 100%;
+    padding: 0;
+    margin-right: -15px;
+}
+div.container-fluid div.row{
+    height: 100%;
+    width: 100%;
+}
+div.container-fluid div.row div.col-sm-8{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+div.container-fluid div.row div.col-sm-8 img{
+    position: absolute;
+    top: 15%;
+}
+div.container-fluid div.row div.col-sm-4{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+div.container-fluid div.row div.col-sm-4 img{
+    position: absolute;
+    top: 15%;
+}
+div.container-fluid div.row div.col-sm-4 a{
+    position: absolute;
+    bottom: 40%;
+    left: 14%;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+    border: white 1px solid;
+    border-radius: 10px;
+}
+div.container-fluid div.row div.col-sm-4 a:hover{
+    background-color: white;
+    color:#152D66;
+}

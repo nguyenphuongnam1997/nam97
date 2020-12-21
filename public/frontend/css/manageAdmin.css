@@ -1,0 +1,137 @@
+*{margin: 0;padding: 0;}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+div.mybackground{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+div.mybackground div.black{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    z-index: 2;
+}
+div.mybackground div.danger{
+    position: absolute;
+    z-index: 3;
+    width: 30%;
+    height: 30%;
+    margin-top: 15%;
+    margin-left: 35%;
+    background-color: white;
+    border-radius: 18px;
+    border: 3px solid red;
+}
+div.mybackground div.danger h2{
+    text-align: center;
+    color: red;
+}
+div.mybackground div.danger button.edit{
+    width: 90px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-right: 175px;
+}
+div.mybackground div.danger button.edit2{
+    width: 90px;
+    height: 50px;
+    margin-top: 15px;
+}
+div.mybackground div.danger p{
+    text-align: center;
+}
+div.container-fluid {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin-right: -15px;
+    position: absolute;
+    z-index: 1;
+}
+div.container-fluid div.row {
+    width: 100%;
+    height: 100%;
+}
+div.container-fluid div.row div.col-sm-2{
+    height: 100%;
+    width: 100%;
+    background-color: #097EEB;
+}
+div.myTitle{
+    height: 100px;
+}
+ div.myTitle h5{
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+}
+div.container-fluid div.row div.col-sm-2 div.myMenu{
+    margin-left: -15px;
+    margin-right: -15px;
+    text-decoration: none;
+}
+div.container-fluid div.row div.col-sm-2 div.myMenu div.card{
+    background-color: #097EEB;
+}
+div.container-fluid div.row div.col-sm-2 div.myMenu div.card div.collapse{
+    width: 100%;
+    height: 100%;
+}
+a.myDepartment{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background-color: #097EEB;
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+a.myDepartment:hover{
+    background-color: #0c5599;
+}
+button{
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin-right: -15px;
+    background-color: #097EEB;
+    border: none;
+    padding: 15px;
+    padding-left: 15px;
+}
+button:focus{
+    outline: 0;
+    outline-style: none;
+    outline-width: 0;
+}
+button:hover{
+    background-color: #0c5599;
+}
+
+div.container-fluid div.row div.col-sm-10{
+    height: 100%;
+    width: 100%;
+}
+table.table{
+    margin-top: 9%;
+}
+div.container-fluid div.row div.col-sm-2 div.logo1{
+    width: 100%;
+    height: 25%;
+}
+div.container-fluid div.row div.col-sm-2 div.logo1 img{
+    width: 100%;
+    height: 100%;
+}
+/* div.myTitle{
+    background-image: url('public/images/nguyenphuongnamLeft.png');
+} */
+
+
